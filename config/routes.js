@@ -35,6 +35,7 @@ module.exports.routes = {
   // '/': {
   //   view: 'homepage'
   // }
+  'GET /': {view: 'home'},
   'GET /signup': {view: 'signup'}
 
   /***************************************************************************
