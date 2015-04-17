@@ -15,6 +15,21 @@
 // (if you're using LESS with the built-in default config, you'll want
 //  to change `assets/styles/importer.less` instead.)
 var cssFilesToInject = [
+
+  'styles/angular-toastr.css',
+  //'styles/bootstrap.3.1.1.css',
+  'styles/importer.css',
+  'styles/home/reset.css',
+  'styles/home/flowtime.css',
+  'styles/home/default.css',
+  'styles/home/prism.css',
+  'styles/home/font-awesome.min.css',
+  'styles/home/fotorama.css',
+  'styles/home/supernova.umin.css',
+  'styles/home/style.css',
+  'styles/home/marketing2.css',
+  'styles/home/3defe.css',
+  'styles/home/ander.css',
   'styles/**/*.css'
 ];
 
@@ -33,6 +48,15 @@ var jsFilesToInject = [
   // All of the rest of your client-side js files
   // will be injected here in no particular order.
   'js/public/signup/SignupModule.js',
+  'js/public/signup/SignupController.js',
+  'js/public/home/brav1toolbox.js',
+  'js/public/home/flowtime.js',
+  'js/public/home/prism.js',
+  'js/public/home/ander.js',
+  'js/public/home/custom.modernizr.js',
+  'js/public/home/foundation.min.js',
+  'js/public/home/supernova.min.js',
+  'js/public/home/jquery.fittext.js',
   'js/**/*.js'
 ];
 
