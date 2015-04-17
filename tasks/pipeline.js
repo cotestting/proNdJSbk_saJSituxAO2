@@ -55,6 +55,7 @@ var jsFilesToInject = [
   'js/public/home/ander.js',
   'js/public/home/custom.modernizr.js',
   'js/public/home/foundation.min.js',
+  'js/public/home/TweenMax.min.js',
   'js/public/home/supernova.min.js',
   'js/public/home/jquery.fittext.js',
   'js/**/*.js'
