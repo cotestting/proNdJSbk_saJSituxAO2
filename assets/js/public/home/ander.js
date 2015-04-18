@@ -43,3 +43,4 @@ var cacheTitle = document.title.replace("Flowtime.js | ", "");
 		}
 		// starts the application with configuration options
 		Flowtime.start();
+
