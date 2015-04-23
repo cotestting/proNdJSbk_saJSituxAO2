@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Sign Up for Activity Overlord (angular)</title>
+    <title>iTux | Sign Up </title>
 
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="/styles/home/3defe.css">
     <link rel="stylesheet" href="/styles/home/ander.css">
     <link rel="stylesheet" href="/styles/home/hover.css">
+    <link rel="stylesheet" href="/styles/introjs.css">
     <!--STYLES END-->
 
     <!--Added this so the client has access to the csrf tag and it's grabbed first service side on every page -->
@@ -47,7 +48,7 @@
           </button>
 
           <!-- This is the brand on the left-hand side. -->
-          <a class="navbar-brand" href="/#"> iTux v0.1.1</a>
+          <a class="navbar-brand" href="/#"> <h2 id="fittext5"><span class="i-col">i</span><span class="t-col">T</span><span class="u-col">u</span><span class="x-col">x</span></h2></a>
           <div class="collapse navbar-collapse" ng-class="!navCollapsed && 'in'">
 
           <!-- LOGIN FORM -->  
@@ -77,7 +78,7 @@
 
     <!-- SIGNUP FORM --> 
     <form ng-submit="submitSignupForm()" id="sign-up-form" class="form-signin" name="signup">
-      <h2 class="form-signin-heading">Create an account</h2>
+      <h2 class="form-signin-heading">Create an iTux account</h2>
       <div class="row">
 
         <!-- N A M E -->
@@ -171,7 +172,7 @@
         <hr>
         <footer class="footer pull-right">
             <div>
-                Powered in <a href="http://sailsjs.com/">sailsjs.org</a>
+                Itux is Powered in <a href="http://sailsjs.com/" style="color: #4cae4c !important; ">sailsjs.org</a>
                 <div>Itux Project to Accelerate the Development of Technology in your location.</div>
             </div>
         </footer>
@@ -185,6 +186,8 @@
     <script src="/js/dependencies/compareTo.module.js"></script>
     <script src="/js/public/signup/SignupModule.js"></script>
     <script src="/js/public/signup/SignupController.js"></script>
+    <script src="/js/private/dashboard/DashboardModule.js"></script>
+    <script src="/js/public/home/HomeModule.js"></script>
     <script src="/js/public/home/brav1toolbox.js"></script>
     <script src="/js/public/home/flowtime.js"></script>
     <script src="/js/public/home/prism.js"></script>
@@ -193,8 +196,14 @@
     <script src="/js/public/home/foundation.min.js"></script>
     <script src="/js/public/home/TweenMax.min.js"></script>
     <script src="/js/public/home/jquery.fittext.js"></script>
+    <script src="/js/private/dashboard/DashboardController.js"></script>
+    <script src="/js/public/home/HomeController.js"></script>
+    <script src="/js/public/home/intro.js"></script>
     <script src="/js/public/home/jqueryTranslator.min.js"></script>
     <script src="/js/public/home/supernova.unmin.js"></script>
     <!--SCRIPTS END-->
+    <script type="text/javascript">
+      $("#fittext5").fitText(0.1);
+    </script>
   </body>
 </html>

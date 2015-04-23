@@ -711,8 +711,8 @@ header ul {
     margin-bottom: 1.5rem;
 }
 footer {
-    padding: 4rem 2rem;
-    border-top: 2px solid rgba(25, 41, 48, 0.15);
+    /*padding: 4rem 2rem;*/
+    /*border-top: 2px solid rgba(25, 41, 48, 0.15);*/
     text-align: center;
 }
 footer:before, footer:after {
@@ -760,7 +760,7 @@ footer [fm-inline-list] li {
 }
 }@media(min-width:1601px) {
     footer {
-    padding: 8rem 4rem;
+    /*padding: 8rem 4rem;*/
 }
 }#head-container {
     padding: 4rem 0 2rem;

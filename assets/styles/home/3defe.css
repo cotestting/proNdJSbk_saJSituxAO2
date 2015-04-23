@@ -5,10 +5,10 @@
 /*forcing the body to take 100% height*/
 html, body {min-height: 100%;}
 /*a nice BG*/
-body {
-	background: #544; /*fallback*/
+/*body {
+	background: #544; 
 	background: linear-gradient(#544, #565);
-}
+}*/
 
 /*Thumbnail Background*/
 .thumb {

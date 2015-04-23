@@ -49,6 +49,8 @@ var jsFilesToInject = [
   // will be injected here in no particular order.
   'js/public/signup/SignupModule.js',
   'js/public/signup/SignupController.js',
+  'js/private/dashboard/DashboardModule.js',
+  'js/public/home/HomeModule.js',
   'js/public/home/brav1toolbox.js',
   'js/public/home/flowtime.js',
   'js/public/home/prism.js',

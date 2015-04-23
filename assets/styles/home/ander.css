@@ -143,6 +143,8 @@ a{
 }
 .des{
   /*border: 1px solid blue;*/
+  z-index: 999999;
+
 }
 .des div{
   display: inline-block;
@@ -157,9 +159,19 @@ a.hvr-pop:hover{
     border-left: thick solid #FFFFFF;
     margin: 0 auto;
     position: absolute;
-    bottom: -58%;
-    height: 58%;
+    bottom: -78%;
+    height: 78%;
     border: 2px ridge silver ;
+}
+/*
+------------------------ tokes ------------------------*/
+.navbar{
+  background: #f8f8f8;
+  border-color: #f8f8f8;
+}
+
+.navbar-form .btn{
+  margin-bottom: 3% !important;
 }
 
 @media(max-width:700px) {
