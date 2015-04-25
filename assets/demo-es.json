@@ -1,9 +1,9 @@
 {
 	"pIntro" : "Compañía Tecnológica, planificando el futuro local. ES <strong>80+</strong>",
-	"liIntro1" : "Primero carga de manera asíncrona los archivos de traducción que se le faciliten al plugin. Puede ser una cadena o una matriz de ellas",
-	"liIntro2" : "Después, traduce el elemento basándose en el lenguaje del navegador del usuario. El plugin puede traducir el texto del elemento o cambiar atributos, ¡o incluso ambos!",
-	"liIntro3" : "Finalmente, si facilitó una función de callback, será ejecutada sobre cada elemento a ser traducido.",
-	"uandD" : "Uso y documentación",
+	"signup" : "<i class='fa fa-user-plus'></i> Únete",
+	"contactus" : "<i class='fa fa-lg fa-building-o'></i> Contáctanos",
+	"start" : "Iniciar <br><i class='fa fa-2x fa fa-angle-down'></i>",
+	"navigate" : "Navega",
 	"includePlugin" : "Tan solo incluya uno de los archivos del plugin en su página.",
 	"useDataTranslate" : "Use el atributo \"data-translate\" en los elementos del DOM que quiera traducir",
 	"keyExplanation" : "Las palabras \"hello\" y \"img\" sirven como una especie de clave para que sea más fácil de ubicar la traducción.",

@@ -32,10 +32,10 @@ angular.module('HomeModule').controller('HomepageController', ['$scope', '$http'
         return;
       }
 
-        toastr.error('An unexpected error occurred, please try again.', 'Error', {
-          closeButton: true
-        });
-        return;
+      toastr.error('An unexpected error occurred, please try again.', 'Error', {
+        closeButton: true
+      });
+      return;
 
     })
     .finally(function eitherWay(){

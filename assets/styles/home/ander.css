@@ -183,3 +183,18 @@ a.hvr-pop:hover{
     /*border: 1px solid red;*/
   }
 }
+
+@media(max-height:600px) {
+  .des{
+    margin-top: -22% !important;
+  }
+  .test{
+    margin-top: -5% !important;
+  }
+}
+
+@media(max-height:1024px) {
+  .mob{
+    margin-top: -20% !important;
+  }
+}

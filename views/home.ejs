@@ -16,32 +16,32 @@
 <!--<![endif]-->
 <head>
 	<meta charset="UTF-8">
-	<!--
 	<meta name="viewport" content="initial-scale=1.0 minimal-ui">
 	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="author" content="marcolago">
+	<meta name="author" content="Itux">
 
-	<meta property="og:title" content="Flowtime.js A HTML Presentation Framework">
+	<meta property="og:title" content="Itux Compañía Tecnológica, planificando el futuro local">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="http://flowtime-js.marcolago.com">
-	<meta property="og:image" content="http://flowtime-js.marcolago.com/assets/img/share-image.jpg">
-	<meta property="og:site_name" content="Flowtime.js">
-	<meta property="fb:admins" content="1293500397">
+	<meta property="og:url" content="http://itux.pe">
+	<meta property="og:image" content="http://itux.pe/assets/images/ituxlogo.png">
+	<meta property="og:site_name" content="itux.pe">
+	<meta property="fb:admins" content="1126488684033779">
 
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:url" content="http://flowtime-js.marcolago.com">
-	<meta name="twitter:title" content="Flowtime.js - A HTML Presentation Framework">
-	<meta name="twitter:description" content="Flowtime.js is an open source framework for easily build HTML presentations or websites. It’s built with web standards in mind and on top of a solid full page grid layout powered by CSS3 hardware accelerated transition and comes with a complete set of Javascript API for deep customization.">
-	<meta name="twitter:image" content="http://flowtime-js.marcolago.com/assets/img/share-image.jpg">
-	<meta name="twitter:creator" content="@marcolago">
+	<meta name="twitter:url" content="http://itux.pe">
+	<meta name="twitter:title" content="itux.pe Compañía Tecnológica, planificando el futuro local">
+	<meta name="twitter:description" content="Itux Compañía Tecnológica, planificando el futuro local.">
+	<meta name="twitter:image" content="http://itux.pe/assets/images/ituxlogo.png">
+	<meta name="twitter:creator" content="@itux.pe">
 
-	<meta name="description" content="Flowtime.js is an open source framework for easily build HTML presentations or websites. It’s built with web standards in mind and on top of a solid full page grid layout powered by CSS3 hardware accelerated transition and comes with a complete set of Javascript API for deep customization.">
-	-->
+	<meta name="description" content="Itux.pe Compañía Tecnológica, planificando el futuro local.">
+
 	<title>Itux</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<link rel="shortcut icon" href="images/itux.ico" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/css/foundation.min.css">
+
 	<!--STYLES-->
 	<link rel="stylesheet" href="/styles/angular-toastr.css">
 	<link rel="stylesheet" href="/styles/importer.css">
@@ -58,7 +58,14 @@
 	<link rel="stylesheet" href="/styles/home/ander.css">
 	<link rel="stylesheet" href="/styles/home/hover.css">
 	<link rel="stylesheet" href="/styles/introjs.css">
+	<link rel="stylesheet" href="/styles/pwt/animate.min.css">
+	<link rel="stylesheet" href="/styles/pwt/frontpage.css">
+	<link rel="stylesheet" href="/styles/pwt/powertour-connectors.css">
+	<link rel="stylesheet" href="/styles/pwt/powertour-mobile.css">
+	<link rel="stylesheet" href="/styles/pwt/powertour-style-clean.css">
+	<link rel="stylesheet" href="/styles/pwt/powertour.2.2.0.css">
 	<!--STYLES END-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/css/foundation.css">
 	<style>
 		#demoitux{
 			/*display: none;*/
@@ -68,7 +75,7 @@
 			height: auto;
 			position: absolute;
 			bottom: 2.5%;
-			right: 9.5%;
+			right: 10%;
 			padding: 8px;
 			border-radius: 3px;
 		}
@@ -82,17 +89,58 @@
 		    top: 10px;
 		    right: -10px;
 		}
+		.introjs-helperLayer, .introjs-tooltipReferenceLayer {
+	        
+	    }
+	    .joder{
+	    	margin: 30% 47%;
+	    }
+	    #powertour-controls a{
+	    	color: #111 !important;
+	    	border: 1px solid #111;
+	    	border-radius: 3px;
+	    }
 	</style>
 
 </head>
 <body class="">
+	<div id="step-one" class="single-step">
+        <h3 class="subheader">1. Welcome to the tour</h3>
+        <p>
+        	Welcome to The Technology Company, local planning future. <span> Itux</span>
+        </p>
+        <p>
+        <i>Enjoy the tour!</i>
+        </p>
+        <footer>
+            <a href="#" class="btn button" data-powertour-action="stop">Cancel</a>
+            <a href="#" class="btn btn-primary button success pull-right" data-powertour-action="next">Continue</a>
+        </footer> 
+    </div>
+    <!-- <div id="step-two" class="single-step ltr-text">
+            <span class="connectorarrow-lt"></span> 
+            <header>
+               <h3>2. Hook a step to an element</h3>
+            </header>
+            <p>
+            You can hook every step to an element which we call a 'hook'.
+            </p>
+            <p>This step has a LTR layout and we've added a custom class to the button above.</p>
+            <footer>                
+                <div class="pull-left">
+                    <a href="#" class="btn btn-primary" data-powertour-action="next">Next</a>  
+                    <a href="#" class="btn btn-default" data-powertour-action="prev">Prev</a>           
+                </div>
+                <a href="#" class="btn btn-default pull-right" data-powertour-action="stop">End tour</a>
+            </footer> 
+        </div> -->
 	<div class="flowtime">
 		<div class="ft-section" data-id="section-1">
+			
 			<div id="/section-1/page-1" class="ft-page" data-id="page-1" data-title="Home">
 				<section id="cover" class="section section--fs cover cover--with-startfield">
 				    <div class="covered image-holder"></div>
 				    <canvas class="cover__starfield"></canvas>
-				    
 				    <!-- tob-bar -->
 				    <!-- <div class="row fullwidth collapse top-bar-row">
 				      <div class="large-12 columns">
@@ -121,70 +169,64 @@
 				        </nav>
 				      </div>
 				    </div> -->
-			    
+			    	<!-- End tob-bar -->
+
 				    <!-- texs -->
 				    <div class="cover__texts as-table">
-				      <div class="as-cell as-cell--middle">
-				        <div class="row fullwidth collapse">
-				          <div class="small-12 medium-8 large-7 small-centered medium-uncentered columns test">
-				            <!--<h1><img src="images/ituxlogo.png" alt="Supernova Bundle" title="Supernova Bundle"></h1>-->
-				            <h1 id="fittext1"><span class="i-col">i</span><span class="t-col">T</span><span class="u-col">u</span><span class="x-col">x</span></h1>
-				          </div>
-				        </div>
-				        <div class="row fullwidth collapse">
-				          <div class="small-10 medium-8 large-6 small-centered medium-uncentered columns end test2">
-				            <h2 id="fittext2" data-translate="pIntro">Technology Company, local planning future. Lorem <strong>80+</strong></h2><!-- <a class="btn btn-large btn-success" href="javascript:void(0);" onclick="javascript:introJs().start();">Tour</a> -->
-				          </div>
-				        </div>
-				      </div>
+				      	<div class="as-cell as-cell--middle">
+				        	<div class="row fullwidth collapse">
+				          		<div class="small-12 medium-8 large-7 small-centered medium-uncentered columns test">
+				            		<h1 id="fittext1"><span class="i-col">i</span><span class="t-col">T</span><span class="u-col">u</span><span class="x-col">x</span></h1>
+				          		</div>
+				        	</div>
+				        	<div class="row fullwidth collapse">
+				          		<div class="small-10 medium-8 large-6 small-centered medium-uncentered columns end test2">
+				            		<h2 id="fittext2" data-translate="pIntro">Technology Company, local planning future. Lorem <strong>80+</strong></h2>
+				          		</div>
+				        	</div>
+				      	</div>
 				    </div>
 			    
 				    <!-- cover footer -->
 				    <div class="row fullwidth collapse cover__footer">
-				      	<div class="small-12 medium-8 large-6 columns">
+				      	<div class="small-6 medium-10 large-10 columns">
 					        <div class="row collapse des">
-					        	<div class="small-6 medium-6 large-3 columns ">
-					          		<h4 id="fittext4">
-					          			<a href="/signup" class="test4"><i class="fa fa-user-plus"></i> Sign Up</a>
-					          		</h4>
+					        	<div class="medium-4 large-2 columns ">
+					          		<h5 id="fittext4">
+					          			<a href="/signup" class="test4" data-translate="signup"><i class="fa fa-user-plus"></i> Join Up</a>
+					          		</h5>
 					        	</div>
-					        	<div class="small-6 medium-6 large-4 columns ">
-					          		<h4 id="fittext41">	
-					          			<a href="#/section-1/page-4" class="test4" id="contact"><i class="fa fa-lg fa-building-o"></i> Contact Us</a>
-					          		</h4>
+					        	<div class="medium-4 large-3 columns ">
+					          		<h5 id="fittext41">	
+					          			<a href="#/section-1/page-4" class="test4" id="contact" data-translate="contactus"><i class="fa fa-lg fa-building-o"></i> Contact Us</a>
+					          		</h5>
 					          	</div>
-					          	<div class="large-5 columns ">	
+					          	<div class="medium-4 large-3 columns ">	
 									<div class="circle-responsive">
 										<h4 id="fittext42">	
-						          			<a href="#/section-1/page-2" class="hvr-pop" id="contact">Start<br><i class="fa fa-2x fa fa-angle-down"></i></a>
+						          			<a class="hvr-pop" id="starttour-1" data-translate="start">Start<br><i class="fa fa-2x fa fa-angle-down"></i></a>
 						          		</h4>
 						          		<div class="verticalLine"></div>
 									</div>
-									
 					          	</div>
-
-					          	<!-- <div class="small-4 medium-2 large-4 columns ">
-					          		<h4 id="fittext42">
-					          			<a href="#/section-1/page-3" class="circle-responsive" id="contact">Start</a>
-					          		</h4>
-					          	</div> -->
+								<div class="large-3 columns"></div>	
 					        </div>
 
 					        <div class="row collapse mob">
-					        	<div class="small-4 medium-3 large-4 columns ">
-					          		<a href="/signup" class="test4"><i class="fa fa-2x fa-user-plus"></i></a>
+					        	<div class="small-4 columns">
+					          		<a href="/signup" class="test4"><i class="fa fa-2x fa-plus"></i></a>
 					        	</div>
-					        	<div class="small-4 medium-3 large-4 columns ">
+					        	<div class="small-4 columns ">
 					          		<a href="#/section-1/page-3" class="test4" id="contact"><i class="fa fa-2x fa-building-o"></i></a>
 					          	</div>
-					          	<div class="small-4 medium-3 large-4 columns ">
-					          		<a href="#/section-1/page-3" class="test4" id="contact"><i class="fa fa-2x fa-bolt"></i></a>
+					          	<div class="small-4 columns ">
+					          		<a href="#/section-1/page-3" class="test4" id="contact"><i class="fa fa-2x fa-angle-down"></i></a>
 					          	</div>
-					          	<div class="medium-3 columns "></div>
+					          	
 					        </div>
 				      	</div>
 
-				      	<div class="small-12 medium-4 large-6 columns">
+				      	<div class="small-6 medium-2 large-2 columns">
 				        	<!-- <div class="row collapse">
 				          		<div class="small-12 columns cover__social-buttons">
 					            <ul class="inline inline-list">
@@ -196,19 +238,19 @@
 				        	</div> -->
 				      	</div>
 				    </div>
-				    <div id="demoitux">Navigation</div>
+				    <div id="demoitux" data-translate="navigate">Navigate</div>
 
 			  	</section>
 			</div>
 			
 			<div id="/section-1/page-2" class="ft-page itux" data-id="page-2" data-title="betaA">
 				<div class="itux-content">
-					<i class="fa fa-arrows fa-5x"></i>
+					<i class="fa fa-arrows fa-5x joder"></i>
 				</div>
 			</div>
 			<div id="/section-1/page-3" class="ft-page itux" data-id="page-3" data-title="betaB">
-				<div class="itux-content">
-					<i class="fa fa-arrows fa-5x"></i>
+				<div class="itux-content" >
+					<i class="fa fa-arrows fa-5x joder"></i>
 				</div>
 			</div>
 			<div id="/section-1/page-4" class="ft-page itux" data-id="page-4" data-title="betaC">
@@ -436,7 +478,29 @@
 			</div>
 		</div>
 	</div>
-
+	 <div id="demo-bar-footer">
+            <div id="powertour-controls">
+                <img src="images/controls2.png" alt="controls" id="controls2"/>
+                <a href="#" class="btn btn-default" data-powertour-action="first"><i class="fa fa-fast-backward"></i></a>
+                <a href="#" class="btn btn-default" data-powertour-action="prev"><i class="fa fa-step-backward"></i></a>
+                <a href="#" class="btn btn-default" data-powertour-action="goto" data-powertour-goto="1">1</a>
+                <a href="#" class="btn btn-default" data-powertour-action="goto" data-powertour-goto="2">2</a>
+                <a href="#" class="btn btn-default" data-powertour-action="goto" data-powertour-goto="3">3</a>
+                <a href="#" class="btn btn-default" data-powertour-action="next"><i class="fa fa-step-forward"></i></a>
+                <a href="#" class="btn btn-default" data-powertour-action="last"><i class="fa fa-fast-forward"></i></a>
+                
+                <a href="#" class="btn btn-default" data-powertour-action="pause" style="margin-left:20px"><i class="fa fa-pause"></i></a>
+                <a href="#" class="btn btn-default" data-powertour-action="play"><i class="fa fa-play"></i></a>
+                <a href="#" class="btn btn-default" data-powertour-action="stop"><i class="fa fa-stop"></i></a>
+                <a href="#" class="btn btn-default" data-powertour-action="toggleplay" style="margin-left:20px"><i class="fa fa-pause"></i> <i class="fa fa-play"></i></a>
+            </div> 
+            <div id="time-placeholder" data-powertour-placeholder="timer">00:00</div>
+            <div id="progressmeter">
+                <div id="progressmeter-bar"></div>
+                <div id="progressmeter-text">loading...</div>
+            </div> 
+            <div id="backtotop"><i class="fa fa-chevron-up"></i></div>
+       </div>
 	<!--<a href="https://github.com/geek--/Hybrid-iTux-platform"><img style="position: fixed; top: 0; right: 0; border: 0; z-index: 1000;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" alt="Fork me on GitHub"></a>-->
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
@@ -463,12 +527,14 @@
 	<script src="/js/public/home/intro.js"></script>
 	<script src="/js/public/home/jqueryTranslator.min.js"></script>
 	<script src="/js/public/home/supernova.unmin.js"></script>
+	<script src="/js/public/pwt/demo.js"></script>
+	<script src="/js/public/pwt/jquery-ui-1.10.4.min.js"></script>
 	<!--SCRIPTS END-->
 	<script type="text/javascript">
 		$(function () {// on page load time
-		  $('.ft-default-progress').attr('data-step', '1');
+		  /*$('.ft-default-progress').attr('data-step', '1');
 		  $('.ft-default-progress').attr('data-intro', 'Navigation');
-		  $('.ft-default-progress').attr('data-position', 'top');
+		  $('.ft-default-progress').attr('data-position', 'top');*/
 
 	       $("#demoitux").fadeToggle(8500);
 
@@ -476,8 +542,8 @@
 
 		$("#fittext1").fitText(0.3);
 		$("#fittext2").fitText(1.5);
-		$("#fittext4").fitText(0.7);
-		$("#fittext41").fitText(0.9);
+		$("#fittext4").fitText(0.65);
+		$("#fittext41").fitText(1);
 		$("#fittext42").fitText(0.6);
 		$("#fittext5").fitText(0.1);
 
